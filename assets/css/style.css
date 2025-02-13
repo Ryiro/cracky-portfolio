@@ -553,6 +553,12 @@ svg {
 
 .service-icon-box img { margin: auto; }
 
+.service-icon-box .fa-solid {
+  color: hsl(339, 81%, 66%)
+  /* or if you want to use the pink color that's used elsewhere in the site: */
+  /* color: var(--bittersweet); */
+}
+
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
@@ -1111,7 +1117,7 @@ svg {
 .blog-item-title {
   margin-bottom: 10px;
   line-height: 1.3;
-  transition: var(--transition-1);
+  transition: var (--transition-1);
 }
 
 .blog-post-item > a:hover .blog-item-title { color: var(--pink-crayola); }
